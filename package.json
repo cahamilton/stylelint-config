@@ -3,6 +3,9 @@
   "version": "0.0.3",
   "description": "Personal Stylelint configuration",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cahamilton/stylelint-config.git"
