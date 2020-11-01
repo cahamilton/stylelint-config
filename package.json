@@ -1,6 +1,6 @@
 {
   "name": "@cahamilton/stylelint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Personal Stylelint configuration",
   "main": "index.js",
   "files": [
