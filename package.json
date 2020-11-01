@@ -19,11 +19,23 @@
   },
   "homepage": "https://github.com/cahamilton/stylelint-config#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint .",
+    "jest": "jest",
+    "prettier": "prettier --check '**/*.js'",
+    "test": "npm run prettier && npm run eslint && npm run jest"
+  },
+  "dependencies": {
+    "stylelint-config-property-sort-order-smacss": "^7.0.0",
+    "stylelint-config-standard": "^20.0.0"
   },
   "devDependencies": {
     "eslint": "^7.12.1",
     "eslint-config-stylelint": "^13.0.0",
-    "prettier": "^2.1.2"
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.7.2"
   }
 }
