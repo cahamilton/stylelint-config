@@ -11,6 +11,6 @@ updates:
       interval: "monthly"
       day: "friday"
       time: "17:00"
-      timezome: "Europe/London"
+      timezone: "Europe/London"
     allow:
       - dependency-type: "direct"
