@@ -28,6 +28,7 @@
     "test": "npm run prettier && npm run eslint && npm run jest"
   },
   "dependencies": {
+    "stylelint-config-css-modules": "^2.2.0",
     "stylelint-config-property-sort-order-smacss": "^7.0.0",
     "stylelint-config-standard": "^20.0.0"
   },
